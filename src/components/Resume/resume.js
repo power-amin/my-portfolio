@@ -10,19 +10,19 @@ class Resume extends Component {
 		return (
 			<div>
 				<Grid>
-					<Cell col={4}>
+					<Cell col={4} tablet={12} className="text-center">
 						<div style={{ textAlign: 'center' }}>
-							<img src={Image} style={{ marginBottom: '0px' }} alt="Amin" className="avatar-img" />
+							<img src={Image} alt="Amin" className="resume-img" />
 						</div>
-						<h2 style={{ paddingTop: '2em' }}>Amin Bashanfar</h2>
+						<h2 className="resume-title">Amin Bashanfar</h2>
 						<h4 style={{ color: 'grey' }}>Programmer</h4>
-						<hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+						<hr style={{ borderTop: '3px solid #833fb2' }} />
 						<p>
 							I am passionate about what I do and I take great satisfaction in completing a task or a job
 							better than requested
 						</p>
 
-						<hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+						<hr style={{ borderTop: '3px solid #833fb2' }} />
 
 						<h5>Address</h5>
 						<p>Romania Bucharest</p>
@@ -30,10 +30,10 @@ class Resume extends Component {
 						<p>0040 722 805 117</p>
 						<h5>Email</h5>
 						<p>power.ameen99@gmail.com</p>
-						<hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+						<hr style={{ borderTop: '3px solid #833fb2' }} />
 					</Cell>
 					<Cell col={8} className="resume-right-col">
-						<h2>LEARNING PATH</h2>
+						<h2 className="resume-title">Learning Path</h2>
 
 						<Education
 							startYear={2017}
@@ -68,17 +68,17 @@ class Resume extends Component {
 						/>
 						<hr style={{ borderTop: '3px solid #e22947' }} />
 
-						<h2>experience</h2>
+						<h2 className="resume-title">experience</h2>
 						<Experience
 							startYear={2019}
-							jobName="CONTINUOUS LEARNING"
+							jobName="Continuous Learning"
 							jobDescription="Online web courses about JavaScript and React.
 									I also usually attend meetups and conferences about frontend
 									development."
 						/>
 						<hr style={{ borderTop: '3px solid #e22947' }} />
 
-						<h2>Skills</h2>
+						<h2 className="resume-title">Skills</h2>
 						<Skills skill="Javascript" progress={60} />
 						<Skills skill="React" progress={50} />
 						<Skills skill="jquery" progress={40} />
@@ -86,7 +86,7 @@ class Resume extends Component {
 						<Skills skill="HTML/CSS" progress={55} />
 						<hr style={{ borderTop: '3px solid #e22947' }} />
 
-						<h2>Languages</h2>
+						<h2 className="resume-title">Languages</h2>
 						<Skills skill="Arabic" progress={100} />
 						<Skills skill="English" progress={80} />
 						<Skills skill="Romanian" progress={30} />

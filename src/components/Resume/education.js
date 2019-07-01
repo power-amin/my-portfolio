@@ -11,7 +11,7 @@ class Education extends Component {
 					</p>
 				</Cell>
 				<Cell col={8}>
-					<h4 style={{ marginTop: '0px' }}>{this.props.schoolName}</h4>
+					<h4 className="description-projects">{this.props.schoolName}</h4>
 					<p>
 						<a href={this.props.firstProject} target="_blank">
 							{this.props.firstProject}
