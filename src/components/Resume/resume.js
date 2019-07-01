@@ -43,8 +43,6 @@ class Resume extends Component {
 										had created a few responsive projects seeing the designs
 										by pictures using HTML, CSS, Bootstrap, Jquery the links are
 										attached below:"
-							firstProject="https://power-amin.github.io/Technology/"
-							secondProject="https://power-amin.github.io/Creative-WebSite/"
 						/>
 
 						<Education
@@ -53,8 +51,6 @@ class Resume extends Component {
 							schoolName="I started to learn JavaScript by watch tutorials on YouTube
 										and I create small games and calculator using JavaScript"
 							firstProject="https://power-amin.github.io/Calculator/"
-							secondProject="https://power-amin.github.io/Ball-Game/"
-							therdProject="https://power-amin.github.io/Boxes-Game/"
 						/>
 
 						<Education
@@ -62,9 +58,6 @@ class Resume extends Component {
 							endYear={2019}
 							schoolName="I started to learn React by watching tutorials, some courses, some mentors
                                         and I made some projects the links are attached below:"
-							firstProject="​https://new-recipes-app.netlify.com"
-							secondProject="https://react-coins.netlify.com/"
-							therdProject="https://react-form-with-material.netlify.com/"
 						/>
 						<hr style={{ borderTop: '3px solid #e22947' }} />
 
