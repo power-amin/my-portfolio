@@ -17,7 +17,7 @@ class Contact extends Component {
 						<hr style={{ borderTop: '3px solid #833fb2', marginTop: '2rem' }} />
 					</Cell>
 					<Cell col={6}>
-						<h2>Contact Me</h2>2rrem
+						<h2>Contact Me</h2>
 						<hr />
 						<div className="contact-list">
 							<List>

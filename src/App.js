@@ -3,7 +3,6 @@ import Main from './components/main';
 import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import { Link } from 'react-router-dom';
-
 function App() {
 	return (
 		<div className="demo-big-content">
