@@ -33,7 +33,7 @@ class Resume extends Component {
 						<hr style={{ borderTop: '3px solid #833fb2' }} />
 					</Cell>
 					<Cell col={8} className="resume-right-col">
-						<h2 className="resume-title">Learning Path</h2>
+						{/* <h2 className="resume-title">Learning Path</h2>
 
 						<Education
 							startYear={2017}
@@ -59,15 +59,18 @@ class Resume extends Component {
 							schoolName="I started to learn React by watching tutorials, some courses, some mentors
                                         and I made some projects the links are attached below:"
 						/>
-						<hr style={{ borderTop: '3px solid #e22947' }} />
+						<hr style={{ borderTop: '3px solid #e22947' }} /> */}
 
 						<h2 className="resume-title">experience</h2>
 						<Experience
 							startYear={2019}
-							jobName="Continuous Learning"
-							jobDescription="Online web courses about JavaScript and React.
-									I also usually attend meetups and conferences about frontend
-									development."
+							jobName="Continuous Ab4 systems"
+							jobDescription="Languages: HTML, CSS, javascript.
+							Frameworks: Angular, Bootstrap, Docker.
+							I develop the Frontend of a large application decoupled in backend and frontend, 
+							using restful Api for communication and docker for infrastructure environment.
+							All that I can say, This is one of the best experiences I have ever had( work, environment,
+							 flexible time, amazing understanding between the team members ) plus learning new things every single day"
 						/>
 						<hr style={{ borderTop: '3px solid #e22947' }} />
 
@@ -75,7 +78,7 @@ class Resume extends Component {
 						<Skills skill="Javascript" progress={60} />
 						<Skills skill="React" progress={50} />
 						<Skills skill="jquery" progress={40} />
-						<Skills skill="Bootstrap" progress={60} />
+						<Skills skill="Angular" progress={60} />
 						<Skills skill="HTML/CSS" progress={55} />
 						<hr style={{ borderTop: '3px solid #e22947' }} />
 

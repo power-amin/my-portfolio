@@ -11,7 +11,7 @@ class LandingPage extends Component {
 						<div className="banner-text">
 							<h1>Frontend Web Developer</h1>
 							<hr />
-							<p>HTML/CSS | Bootstrap | Javascript | Jquery | React </p>
+							<p>HTML/CSS | Bootstrap | Javascript | Jquery | React | Angular</p>
 
 							<div className="social-links">
 								{/* LinkedIn */}
@@ -23,7 +23,7 @@ class LandingPage extends Component {
 									<i className="fa fa-linkedin-square" aria-hidden="true" />
 								</a>
 								{/* Github */}
-								<a href="https://github.com/power-amin" rel="noopener noreferrer" target="_blank">
+								<a href="https://github.com/amin-bash" rel="noopener noreferrer" target="_blank">
 									<i className="fa fa-github" aria-hidden="true" />
 								</a>
 							</div>

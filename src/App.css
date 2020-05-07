@@ -96,6 +96,15 @@
 	margin: 1rem 0;
 }
 
+.contact-info {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 423px;
+    padding-left: 45px;
+}
+
 .contact-grid h2 {
 	font-family: 'Anton', sans-serif;
 }
